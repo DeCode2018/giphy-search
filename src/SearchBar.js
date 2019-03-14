@@ -1,20 +1,12 @@
 import React, { Component } from 'react';
 
 class SearchBar extends Component {
-  constructor(){
-    super()
-
-    this.state = {
-      searchTerm: 'Enter Search Term here...'
-  }
-}
 
   render() {
     return (
-      <div className="SearchBar">
-      {this.state.searchTerm}
-      
-      </div>
+        <form>
+        <input className="SearchBar" placeholder='Enter Search Term here...' onChange={this.props.handleInputChange}/>
+        </form>
     );
   }
 }

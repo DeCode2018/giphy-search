@@ -7,4 +7,11 @@ Setup:
 
 1. clone app
 2. cd giphy-seach
+3. yarn install
 3. yarn start
+
+
+Instructions:
+1. Type search term into search box
+2. 3 Giphy boxes will appear based on search term
+3. All Giphy's will have a rating of 'pg' or lower
